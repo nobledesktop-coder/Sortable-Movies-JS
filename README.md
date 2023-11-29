@@ -1,5 +1,6 @@
 ## Sortable Movies JavaScript Project
 ### Sorting movies array of objects by key
+#### Fair Use of movie posters for educational purposes / classroom use only.
 This project dynamically generates a web page of movie data, consisting of a grid of divs, each containing a movie poster image, followed by info about the film.
 
 The movies load in alphabetical order, with leading articles ("A", "The") ignorned, so "A Beautiful Mind" is alphabetized as "B" and "The Deer Hunter" with "D".
