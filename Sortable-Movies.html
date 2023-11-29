@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sortable Movies</title>
+    <link href="css/sortable-movies.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Sortable Movies</h1>    
+        <select>
+            <option value="choose">Sort by..</option>
+            <!-- these options are made in the JS, dynamically using
+            data from movies.js -->
+            <!-- <option value="duration">Duration</option>
+            <option value="noArticle" selected>Name</option>
+            <option value="oscars">Oscars</option>
+            <option value="tomatometer">Tomatometer</option>
+            <option value="year">Year</option> -->
+        </select>
+
+        <input type="checkbox" id="cb" value="desc">
+        <label for="cb">Descending</label>
+
+        <div class="movie-holder">
+            <!-- grid of movie results generated dynamically by JS -->
+        </div>
+
+    </div>
+
+    <script src="js/movies.js"></script><!-- the movie data as array of objects -->
+    <script src="js/Sortable-Movies.js"></script>
+
+</body>
+
+</html>
